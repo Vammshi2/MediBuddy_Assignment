@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/MediBuddy_Assignment/static/css/main.2372e097.css",
+    "main.js": "/MediBuddy_Assignment/static/js/main.08c118c6.js",
+    "index.html": "/MediBuddy_Assignment/index.html",
+    "main.2372e097.css.map": "/MediBuddy_Assignment/static/css/main.2372e097.css.map",
+    "main.08c118c6.js.map": "/MediBuddy_Assignment/static/js/main.08c118c6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2372e097.css",
+    "static/js/main.08c118c6.js"
+  ]
+}
