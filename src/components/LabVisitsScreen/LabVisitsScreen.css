@@ -1,0 +1,35 @@
+.lab-visits-container {
+  padding: 16px;
+  background-color: #ffffff;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.header-title {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 16px;
+  color: #2e3742;
+  font-weight: 600;
+}
+
+.see-all-button {
+  padding: 8px;
+}
+
+.see-all-text {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 14px;
+  color: #0066dc;
+  font-weight: 500;
+}
+
+.lab-cards-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}

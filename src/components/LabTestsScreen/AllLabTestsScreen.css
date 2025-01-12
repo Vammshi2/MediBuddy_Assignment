@@ -1,0 +1,32 @@
+.all-lab-tests-screen {
+    padding: 20px;
+  }
+  
+  .header-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .test-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .test-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    width: calc(25% - 20px); /* Adjust width as per design */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .test-card h3 {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+  
+  .test-card p {
+    margin: 4px 0;
+  }
+  

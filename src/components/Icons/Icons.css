@@ -1,0 +1,60 @@
+/* Main container for icons */
+.icons-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 items per row */
+    gap: 16px;
+    padding: 16px;
+    max-width: 800px;
+    margin: 0 auto; /* Center the container */
+  }
+  
+  /* Single icon box */
+  .icon-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 84px;
+    height: 84px;
+  }
+  
+  /* Icon image */
+  .icon-image {
+    width: 48px;
+    height: 48px;
+    margin-bottom: 8px;
+  }
+  
+  /* Icon text */
+  .icon-text {
+    font-family: "Lexend Deca", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #050a4e;
+    margin: 0;
+  }
+  
+  /* Placeholder for empty slots */
+  .icon-placeholder {
+    width: 48px;
+    height: 48px;
+    background: transparent;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .icons-container {
+      grid-template-columns: repeat(3, 1fr); /* Always 3 items per row */
+      gap: 12px; /* Reduce gap for smaller screens */
+    }
+  
+    .icon-box {
+      width: 84px;
+      height: 84px;
+    }
+  }
+  

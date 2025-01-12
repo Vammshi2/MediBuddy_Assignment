@@ -1,0 +1,42 @@
+.lab-visits-screen {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .lab-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .lab-card {
+    border: 1px solid #ebeef1;
+    border-radius: 12px;
+    overflow: hidden;
+    width: 300px;
+    text-align: left;
+    background: #fff;
+  }
+  
+  .lab-card-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .lab-info {
+    padding: 16px;
+  }
+  
+  .lab-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .lab-location,
+  .lab-next-slot,
+  .lab-rating {
+    font-size: 14px;
+    margin: 8px 0;
+  }
+  
